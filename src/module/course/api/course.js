@@ -71,3 +71,14 @@ export const getCoursebaseById = id => {
 export const updateCoursebase = (id, course) => {
   return http.requestPost(apiUrl + '/course/coursebase/update/' + id, course)
 }
+
+/*获取课程营销信息*/
+export const getCourseMarketById = id => {
+  return http.requestQuickGet(apiUrl + '/course/coursemarket/get/' + id)
+}
+
+/*更新课程营销信息*/
+export const updateCourseMarket = (id, courseMarket) => {
+  return http.requestPost(apiUrl + '/course/coursemarket/update/' + id, courseMarket)
+}
+
