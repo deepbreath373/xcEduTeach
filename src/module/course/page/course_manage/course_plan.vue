@@ -190,7 +190,7 @@
             </span>
             <span>
               <el-button style="font-size: 12px;" type="text"
-                         on-click={() => this.choosevideo(data)}>{data.mediaFileOriginalName}&nbsp;&nbsp;&nbsp;&nbsp; 选择视频</el-button>
+                         on-click={() => this.choosevideo(data)}>{data.mediaFileoriginalname}&nbsp;&nbsp;&nbsp;&nbsp; 选择视频</el-button>
               <el-button style="font-size: 12px;" type="text" on-click={() => this.edit(data)}>修改</el-button>
               <el-button style="font-size: 12px;" type="text" on-click={() => this.remove(node, data)}>删除</el-button>
             </span>
